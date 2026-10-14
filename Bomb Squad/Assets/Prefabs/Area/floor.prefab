@@ -1,0 +1,1833 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3286807936419752184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6436338307763857692}
+  m_Layer: 0
+  m_Name: floor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6436338307763857692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3286807936419752184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1012429430221452245}
+  - {fileID: 1294445602796255169}
+  - {fileID: 8495683537870082183}
+  - {fileID: 264814911570838166}
+  - {fileID: 5607116579900034776}
+  - {fileID: 8130594134124268584}
+  - {fileID: 420334858037209504}
+  - {fileID: 1416468829272689579}
+  - {fileID: 5848296687478299049}
+  - {fileID: 1582388020956159964}
+  - {fileID: 3787327526119038119}
+  - {fileID: 6613494181797203759}
+  - {fileID: 3095715740469016530}
+  - {fileID: 5410958780122944434}
+  - {fileID: 6242033663708428021}
+  - {fileID: 1498516494751195768}
+  - {fileID: 7656484530185995937}
+  - {fileID: 4801457270974865187}
+  - {fileID: 4803761798115205826}
+  - {fileID: 8905468850758089205}
+  - {fileID: 6655937441991246706}
+  - {fileID: 3505971434168644510}
+  - {fileID: 5613475229809749176}
+  - {fileID: 3142737483869818022}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &513933443937205892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &7656484530185995937 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 513933443937205892}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1654513346020278736
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01999931
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &8905468850758089205 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 1654513346020278736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1767148873411864738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.919998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &8495683537870082183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 1767148873411864738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2140683075423138829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.919998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &8130594134124268584 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 2140683075423138829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2343989848455566493
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.969999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &5613475229809749176 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 2343989848455566493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2355643677138122493
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &5607116579900034776 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 2355643677138122493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2771686244387728279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &5410958780122944434 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 2771686244387728279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3441493733713848070
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.919998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &4801457270974865187 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 3441493733713848070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3443833440861739751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.919998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &4803761798115205826 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 3443833440861739751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3548331235594943319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &6655937441991246706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 3548331235594943319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3938202474064770826
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.929999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &6613494181797203759 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 3938202474064770826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4305651424018927312
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &6242033663708428021 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 4305651424018927312}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4344220442281615756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &5848296687478299049 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 4344220442281615756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5115430246875591811
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.929999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &3142737483869818022 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 5115430246875591811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5158493713784033271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &3095715740469016530 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 5158493713784033271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6480642421946393730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.969999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &3787327526119038119 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 6480642421946393730}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6757406953336114107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.969999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &3505971434168644510 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 6757406953336114107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7164180891132185584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &1012429430221452245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 7164180891132185584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7545152187531710853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.919998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &420334858037209504 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 7545152187531710853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7983853415362689715
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &264814911570838166 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 7983853415362689715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8688941382129133561
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.969999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &1582388020956159964 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 8688941382129133561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8767201619988585053
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.929998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &1498516494751195768 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 8767201619988585053}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8977464925998796772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.919998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &1294445602796255169 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 8977464925998796772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9135790742988731278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6436338307763857692}
+    m_Modifications:
+    - target: {fileID: -293203802875518696, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_Name
+      value: Floor Grass Sliced B by Isa Lousberg - UMKvhGhK90 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01999931
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -3199799093341109342, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+--- !u!4 &1416468829272689579 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7881466077556996133, guid: 98a1bdbec8be009408519aa53a469aa5, type: 3}
+  m_PrefabInstance: {fileID: 9135790742988731278}
+  m_PrefabAsset: {fileID: 0}
