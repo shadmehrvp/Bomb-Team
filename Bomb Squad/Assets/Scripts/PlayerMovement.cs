@@ -26,7 +26,7 @@ public class PlayerMovement : NetworkBehaviour
 
     void Update()
     {
-        if (!IsOwner) return;
+        if (IsSpawned && !IsOwner) return;
         Keyboard k = Keyboard.current;
 
         float x = (k.dKey.isPressed ? 1 : 0) - (k.aKey.isPressed ? 1 : 0);
