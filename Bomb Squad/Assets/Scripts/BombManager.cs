@@ -26,7 +26,66 @@ public class BombManager : NetworkBehaviour
 
     private void Update()
     {
+        if(!IsServer || !IsArmed.Value) return;
+        if(NetworkManager.ServerTime.Time >= ExploadAt.Value)
+        Expload();
         
     }
-   
+
+    private void Arm(ulong Id)
+    {
+        if(!IsServer) return;
+        HolderId.Value = Id;
+        ExploadAt.Value = NetworkManager.ServerTime.Time + fuseTime;
+        IsArmed.Value = true;
+        lastPassTime = Time.time;
+
+
+    }
+
+    private void Expload()
+    {
+        ulong victim = HolderId.Value;
+        IsArmed.Value = false;
+        HolderId.Value = NoHolder;
+        OnExploded?.Invoke(victim);
+    }
+
+    public bool TryPass(ulong SenderId  , out string reason)
+    {
+        reason = null;
+        if (!IsServer) {reason = "I'm not the server"; return false ;}
+        if(!IsArmed.Value) { reason = " No round"; return false; }
+        if(SenderId != HolderId.Value) {reason = " You don't have it"; return false;}
+        if(Time.time- lastPassTime < passCooldown) {reason = " Too fast"; return false;}
+        Transform sender = NetworkManager.ConnectedClients[SenderId].PlayerObject.transform;
+        ulong target = FindClossest(SenderId, sender.position);
+
+        if(target == NoHolder) {reason = " nobody close" ; return false;}
+
+        HolderId.Value = target;
+        lastPassTime = Time.time;
+        return true; 
+
+        
+        
+    }
+
+    private ulong FindClossest(ulong excludeId, Vector3 from)
+    {
+        ulong best = NoHolder;
+        float bestDistance = passrange;
+        foreach(NetworkClient client in NetworkManager.ConnectedClientsList)
+        {
+            if(client.ClientId == excludeId || client.PlayerObject == null ) continue;
+            float d = Vector3.Distance(from , client.PlayerObject.transform.position);
+            if(d < bestDistance)
+            {
+                bestDistance = d;
+                best = client.ClientId;
+            }
+
+        }
+        return best;
+    }
 }
