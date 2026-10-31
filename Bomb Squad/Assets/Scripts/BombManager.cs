@@ -32,13 +32,14 @@ public class BombManager : NetworkBehaviour
         
     }
 
-    private void Arm(ulong Id)
+    public void Arm(ulong Id)
     {
         if(!IsServer) return;
         HolderId.Value = Id;
         ExploadAt.Value = NetworkManager.ServerTime.Time + fuseTime;
         IsArmed.Value = true;
         lastPassTime = Time.time;
+        Debug.Log("ARMED: " + Id);
 
 
     }

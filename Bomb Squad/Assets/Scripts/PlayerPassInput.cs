@@ -12,7 +12,7 @@ public class PlayerPassInput : NetworkBehaviour
         if(!kb.eKey.wasPressedThisFrame) return;
         if(BombManager.instance == null ) return;
         if(BombManager.instance.HolderId.Value != OwnerClientId) return;
-        PassReqestRpc();
+        PassRequestRpc();
 
     
 
@@ -20,7 +20,7 @@ public class PlayerPassInput : NetworkBehaviour
     }
 
     [Rpc(SendTo.Server)]
-    private void PassReqestRpc(RpcParams rpcParams = default)
+    private void PassRequestRpc(RpcParams rpcParams = default)
     {
         ulong Sender = rpcParams.Receive.SenderClientId;
         if(Sender != OwnerClientId)return;
