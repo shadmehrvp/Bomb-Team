@@ -4,7 +4,7 @@ using Unity.Netcode;
 
 public class RoundManager : NetworkBehaviour
 {
-    [SerializeField] private int minimumPlayers = 2;
+    [SerializeField] private int minimumPlayers = 4;
     [SerializeField] private float delayBetweenBombs = 3f;
     private bool isRoundStarted;
     private readonly List<ulong> alive = new List<ulong>();
@@ -41,6 +41,8 @@ public class RoundManager : NetworkBehaviour
             Debug.Log("WINNER: " + alive[0]);
         else
             Debug.Log("No winner");
+
+         
     }
 
     private void GiveBombToRandomPlayer()
