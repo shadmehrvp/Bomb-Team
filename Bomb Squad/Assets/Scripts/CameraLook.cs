@@ -12,10 +12,6 @@ public class CameraLook : MonoBehaviour
     float yaw;
     float pitch = 15f;
 
-    void Start()
-    {
-        LockCursor();
-    }
 
     void LockCursor()
     {
@@ -23,20 +19,33 @@ public class CameraLook : MonoBehaviour
         Cursor.visible = false;
     }
 
-    void LateUpdate()
+    private void UnlockCursor()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame) LockCursor();
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
 
+  void LateUpdate()
+    {
         if (target == null)
         {
             NetworkManager nm = NetworkManager.Singleton;
             if (nm == null || nm.LocalClient == null || nm.LocalClient.PlayerObject == null) return;
+
             target = nm.LocalClient.PlayerObject.transform;
+            LockCursor();  
         }
 
-        if (Cursor.lockState == CursorLockMode.Locked)
+        Mouse mouse = Mouse.current;
+        Keyboard kb = Keyboard.current;
+
+        // NEW: Esc frees the mouse, click locks it again
+        if (kb != null && kb.escapeKey.wasPressedThisFrame) UnlockCursor();
+        if (mouse != null && mouse.leftButton.wasPressedThisFrame) LockCursor();
+
+        if (mouse != null && Cursor.lockState == CursorLockMode.Locked)
         {
-            Vector2 delta = Mouse.current.delta.ReadValue();
+            Vector2 delta = mouse.delta.ReadValue();
             yaw += delta.x * sensitivity;
             pitch = Mathf.Clamp(pitch - delta.y * sensitivity, -30f, 70f);
         }

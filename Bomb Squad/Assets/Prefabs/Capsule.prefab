@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 2788933498826551417}
   - component: {fileID: 6107170702775039051}
   - component: {fileID: -4535602819292342655}
+  - component: {fileID: 9118503388867654298}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -161,6 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Movement
   ShowTopMostFoldoutHeaderGroup: 1
   moveSpeed: 7
+  turnSpeed: 720
 --- !u!54 &5824539156216930607
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -264,3 +266,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerPassInput
   ShowTopMostFoldoutHeaderGroup: 1
+--- !u!114 &9118503388867654298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5821002122052972235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2a4ede64c323c4d9c9585d1d84e776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerState
+  ShowTopMostFoldoutHeaderGroup: 1
+  IsAlive:
+    UpdateTraits:
+      MinSecondsBetweenUpdates: 0
+      MaxSecondsBetweenUpdates: 0
+    m_InternalValue: 1
