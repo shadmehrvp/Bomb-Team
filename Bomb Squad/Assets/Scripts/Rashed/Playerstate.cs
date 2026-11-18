@@ -25,8 +25,16 @@ public class PlayerState : NetworkBehaviour
     {
         foreach (Renderer r in GetComponentsInChildren<Renderer>()) r.enabled = false;
         foreach (Collider c in GetComponentsInChildren<Collider>()) c.enabled = false;
+        
 
-        PlayerMovement movement = GetComponent<PlayerMovement>();
+        Movement movement = GetComponent<Movement>();
         if (movement != null) movement.enabled = false;
+
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if(rb != null)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
+        }
     }
 }

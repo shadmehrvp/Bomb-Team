@@ -4,10 +4,14 @@ using Unity.Netcode;
 
 public class RoundManager : NetworkBehaviour
 {
+    public static RoundManager instance { get ; private set;}
+    public NetworkVariable<int> RoundNumber = new NetworkVariable<int>(0);
     [SerializeField] private int minimumPlayers = 2;
     [SerializeField] private float delayBetweenBombs = 3f;
     private bool isRoundStarted;
     private readonly List<ulong> alive = new List<ulong>();
+
+    public override void OnNetworkSpawn() => instance = this;
 
     private void Update()
     {
@@ -41,12 +45,16 @@ public class RoundManager : NetworkBehaviour
             Debug.Log("WINNER: " + alive[0]);
         else
             Debug.Log("No winner");
+
+         
     }
 
     private void GiveBombToRandomPlayer()
     {
         if (alive.Count == 0) return;
+        RoundNumber.Value ++;
         ulong randomClientId = alive[Random.Range(0, alive.Count)];
         BombManager.instance.Arm(randomClientId);
+
     }
 }
