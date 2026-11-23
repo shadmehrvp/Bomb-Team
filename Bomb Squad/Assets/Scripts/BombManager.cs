@@ -6,7 +6,7 @@ public class BombManager : NetworkBehaviour
 {
     public static BombManager instance {get ; private set;}
     public const ulong NoHolder = ulong.MaxValue;
-    [SerializeField] private float fuseTime = 20f;
+    [SerializeField] private float fuseTime = 45f;
     [SerializeField] private float passrange = 2f;
     [SerializeField] private float passCooldown = 0.5f;
 
@@ -79,6 +79,10 @@ public class BombManager : NetworkBehaviour
         foreach(NetworkClient client in NetworkManager.ConnectedClientsList)
         {
             if(client.ClientId == excludeId || client.PlayerObject == null ) continue;
+
+            PlayerState playerState = client.PlayerObject.GetComponent<PlayerState>();
+            if(playerState != null && !playerState.IsAlive.Value) continue;
+            
             float d = Vector3.Distance(from , client.PlayerObject.transform.position);
             if(d < bestDistance)
             {
