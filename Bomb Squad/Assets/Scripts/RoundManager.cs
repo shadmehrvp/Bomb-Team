@@ -6,7 +6,7 @@ public class RoundManager : NetworkBehaviour
 {
     public static RoundManager instance { get ; private set;}
     public NetworkVariable<int> RoundNumber = new NetworkVariable<int>(0);
-    [SerializeField] private int minimumPlayers = 2;
+    [SerializeField] private int minimumPlayers = 3;
     [SerializeField] private float delayBetweenBombs = 3f;
     private bool isRoundStarted;
     private readonly List<ulong> alive = new List<ulong>();

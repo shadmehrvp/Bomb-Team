@@ -39,7 +39,6 @@ public class CameraLook : MonoBehaviour
         Mouse mouse = Mouse.current;
         Keyboard kb = Keyboard.current;
 
-        // NEW: Esc frees the mouse, click locks it again
         if (kb != null && kb.escapeKey.wasPressedThisFrame) UnlockCursor();
         if (mouse != null && mouse.leftButton.wasPressedThisFrame) LockCursor();
 
