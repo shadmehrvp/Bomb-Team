@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Register.unity
     guid: 88c8df34a7f3fdc4f8a5cd44aff87c3e
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: bfcc4f6359651c34bb42dac45f250b11
+  - enabled: 1
     path: Assets/Scenes/Shadmehr.unity
     guid: 2ba2e51f8941ae24a9eddaa5ebaff9c1
   m_configObjects:
