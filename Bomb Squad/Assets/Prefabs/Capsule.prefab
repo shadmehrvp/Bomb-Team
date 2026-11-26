@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 6107170702775039051}
   - component: {fileID: -4535602819292342655}
   - component: {fileID: 9118503388867654298}
+  - component: {fileID: -623514021789078069}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -284,3 +285,34 @@ MonoBehaviour:
       MinSecondsBetweenUpdates: 0
       MaxSecondsBetweenUpdates: 0
     m_InternalValue: 1
+  StunnedUntil:
+    UpdateTraits:
+      MinSecondsBetweenUpdates: 0
+      MaxSecondsBetweenUpdates: 0
+    m_InternalValue: 0
+  StunType:
+    UpdateTraits:
+      MinSecondsBetweenUpdates: 0
+      MaxSecondsBetweenUpdates: 0
+    m_InternalValue: 0
+--- !u!114 &-623514021789078069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5821002122052972235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c32e914e3248d429321130c59d0fa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SabotageThrower
+  ShowTopMostFoldoutHeaderGroup: 1
+  snowballPrefab: {fileID: 6963250113150411661, guid: 3eee2300d05a264468079eba7c6d3346, type: 3}
+  bananaPrefab: {fileID: 1234614798363734903, guid: 9cb49f2c5158ff440aabd6ef5110683d, type: 3}
+  pickupRange: 2.5
+  HeldItem:
+    UpdateTraits:
+      MinSecondsBetweenUpdates: 0
+      MaxSecondsBetweenUpdates: 0
+    m_InternalValue: 0
