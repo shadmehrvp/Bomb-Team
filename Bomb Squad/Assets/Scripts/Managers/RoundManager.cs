@@ -8,6 +8,8 @@ public class RoundManager : NetworkBehaviour
     public NetworkVariable<int> RoundNumber = new NetworkVariable<int>(0);
     [SerializeField] private int minimumPlayers = 3;
     [SerializeField] private float delayBetweenBombs = 3f;
+    [SerializeField] private float startDelay = 5f; // Rashed changes
+    private double startAt = -1; // Rashed changes
     private bool isRoundStarted;
     private readonly List<ulong> alive = new List<ulong>();
 
@@ -18,7 +20,18 @@ public class RoundManager : NetworkBehaviour
         if (!IsServer) return;
         if (isRoundStarted) return;
         if (BombManager.instance == null) return;
-        if (NetworkManager.ConnectedClientsList.Count < minimumPlayers) return;
+        if (NetworkManager.ConnectedClientsList.Count < minimumPlayers)
+        {
+            startAt = -1; // Rashed changes
+            return; // Rashed changes
+        }
+
+        if (startAt < 0) // Rashed changes
+        {
+            startAt = NetworkManager.ServerTime.Time + startDelay; // Rashed changes
+            if (CountdownManager.instance != null) CountdownManager.instance.Show(1, startDelay); // Rashed changes
+        }
+        if (NetworkManager.ServerTime.Time < startAt) return; // Rashed changes
 
         alive.Clear();
         foreach (NetworkClient client in NetworkManager.ConnectedClientsList)
@@ -40,7 +53,10 @@ public class RoundManager : NetworkBehaviour
         }
 
         if (alive.Count > 1)
+        { // Rashed changes
+            if (CountdownManager.instance != null) CountdownManager.instance.Show(2, delayBetweenBombs); // Rashed changes
             Invoke(nameof(GiveBombToRandomPlayer), delayBetweenBombs);
+        } // Rashed changes
         else if (alive.Count == 1)
             {
                 Debug.Log("WINNER: " + alive[0]);
