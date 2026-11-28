@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.Netcode;
-
+using Unity.Services.Leaderboards;
 public class RoundManager : NetworkBehaviour
 {
     public static RoundManager instance { get ; private set;}
@@ -42,9 +42,13 @@ public class RoundManager : NetworkBehaviour
         if (alive.Count > 1)
             Invoke(nameof(GiveBombToRandomPlayer), delayBetweenBombs);
         else if (alive.Count == 1)
-            Debug.Log("WINNER: " + alive[0]);
+            {
+                Debug.Log("WINNER: " + alive[0]);
+            WinRpc(RpcTarget.Single(alive[0], RpcTargetUse.Temp));
+            }
         else
             Debug.Log("No winner");
+        
 
          
     }
@@ -56,5 +60,25 @@ public class RoundManager : NetworkBehaviour
         ulong randomClientId = alive[Random.Range(0, alive.Count)];
         BombManager.instance.Arm(randomClientId);
 
+    }
+  
+  [Rpc(SendTo.SpecifiedInParams)]
+    private void WinRpc(RpcParams rpcParams)
+    {
+          SubmitWin();
+    }
+
+    private async void SubmitWin()
+    {
+        try
+        {
+            await LeaderboardsService.Instance.AddPlayerScoreAsync("Wins" , 1);
+            Debug.Log("Wins added to leaderboard");
+            
+        }
+        catch(System.Exception e)
+        {
+            Debug.LogException(e);
+        }
     }
 }

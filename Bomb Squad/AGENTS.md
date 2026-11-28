@@ -4,11 +4,11 @@
 - Active scene:
   - Name: Shadmehr
   - Tags:
-    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController
+    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, Ground
   - Layers:
-    - Default, TransparentFX, Ignore Raycast, Water, UI
+    - Default, TransparentFX, Ignore Raycast, Ground, Water, UI
 - Active game object:
-  - Name: JoinCode
-  - Tag: Untagged
-  - Layer: UI
+  - Name: play Areaa (1)
+  - Tag: Ground
+  - Layer: Ground
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

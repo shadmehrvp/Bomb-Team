@@ -23,7 +23,24 @@ public class Login : MonoBehaviour
         if (AuthenticationService.Instance.IsSignedIn)
         {
             SceneManager.LoadScene("MainMenu");
+            return;
         }
+
+        if(!AuthenticationService.Instance.SessionTokenExists) return;
+        status.text = "Signing in";
+        try
+        {
+            await 
+            AuthenticationService.Instance.SignInAnonymouslyAsync();
+            SceneManager.LoadScene("MainMenu");
+
+        }
+        catch
+        {
+            AuthenticationService.Instance.ClearSessionToken();
+            status.text = "";
+        }
+
     }
     public async void OnLoginClicked()
     {

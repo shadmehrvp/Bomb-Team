@@ -89,7 +89,7 @@ public class MainMenu : MonoBehaviour
 
     public void OnLogoutClicked()
     {
-        AuthenticationService.Instance.SignOut();
+        AuthenticationService.Instance.SignOut(true);
         SceneManager.LoadScene("Login");
     }
 
